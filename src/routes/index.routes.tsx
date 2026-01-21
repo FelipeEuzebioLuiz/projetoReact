@@ -18,12 +18,12 @@ export default function Routes(){
             }}
         >
             <Stack.Screen
-                name = "login"
+                name = "Login"
                 component = {Login}
             />
 
             <Stack.Screen
-                name = "bottomRoutes"
+                name = "BottomRoutes"
                 component = {BottomRoutes}
             />
         </Stack.Navigator>

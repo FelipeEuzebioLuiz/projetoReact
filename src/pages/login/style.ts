@@ -75,7 +75,7 @@ export const style = StyleSheet.create({
         fontSize:18,
     },
     crieConta:{
-        color:theme.colors.gray,
+        color:theme.colors.white,
         fontSize:18
     },
 })

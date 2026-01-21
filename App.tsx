@@ -6,11 +6,9 @@ import {NavigationContainer} from "@react-navigation/native";
 export default function App() {
   return (
     <NavigationContainer>
-      <Routes/>
+      <Routes />
     </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-
-});
+const styles = StyleSheet.create({});
