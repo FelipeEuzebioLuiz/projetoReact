@@ -5,10 +5,12 @@ import { Feather } from "@expo/vector-icons";
 export const style = StyleSheet.create({  
   tabArea:{
     flex:1,
+    position:'absolute',
+    bottom:0,
     flexDirection:'row',
     justifyContent:'space-around',
     alignItems:'center',
-    height:80,
+    height:100,
     width:Dimensions.get('window').width,
     backgroundColor:theme.colors.greenCreeper,
     gap:10,
@@ -27,7 +29,7 @@ export const style = StyleSheet.create({
     color:theme.colors.white,
     fontSize:24,
   },
-  searchIcon:{
+  homeIcon:{
     color:theme.colors.black,
     fontSize:30,
   },
